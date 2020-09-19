@@ -11,4 +11,4 @@ It includes:
  - The useContext / useReducer hooks provide an alternative (non-Redux) way to share state globally
  - the useState hook is used to provide local state
  - React Hook Form simplifies form handling
- - unit tests React Testing Library provides helper methods for testing components
+ - React Testing Library provides helper methods for testing components
