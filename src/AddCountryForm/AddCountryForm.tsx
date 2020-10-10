@@ -27,6 +27,7 @@ const AddCountryForm = (props: AddCountryFormProps) => {
     <form onSubmit={handleSubmit(onSubmit)}>
 
       <input
+        placeholder="Name"
         name="countryName"
         ref={register({
           required: "Required",
@@ -36,6 +37,7 @@ const AddCountryForm = (props: AddCountryFormProps) => {
       {errors.countryName && errors.countryName.message}
 
       <input
+        placeholder = "Code"
         name="countryCode"
         ref={register({
           required: "Required",

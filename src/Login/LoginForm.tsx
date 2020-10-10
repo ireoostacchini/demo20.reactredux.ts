@@ -41,6 +41,7 @@ const LoginForm = (props: LoginFormProps) => {
     <form onSubmit={handleSubmit(onSubmit)}>
 
       <input
+        placeholder="Username"
         name="username"
         ref={register({
           required: "Required"
@@ -49,6 +50,7 @@ const LoginForm = (props: LoginFormProps) => {
       {errors.username && errors.username.message}
 
       <input
+        placeholder="Password"
         name="password"
         ref={register({
           required: "Required",
